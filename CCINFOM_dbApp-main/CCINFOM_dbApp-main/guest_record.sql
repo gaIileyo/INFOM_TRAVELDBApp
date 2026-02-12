@@ -117,3 +117,4 @@ JOIN guest_activity_transaction gat
 WHERE MONTH(gat.activity_start_date) = 5
 AND YEAR(gat.activity_start_date) = 2025
 ORDER BY gat.activity_start_date DESC;
+
